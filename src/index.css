@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .heading {
+    @apply mb-8 text-4xl font-bold text-center text-blue-800;
+  }
+  .form-item {
+    @apply w-full px-4 py-2 mb-4 font-semibold tracking-wider text-blue-700 border-2 border-gray-200 rounded-lg md:mb-0 placeholder:text-gray-500 focus:outline-blue-600;
+  }
+  .icon-flex {
+    @apply flex items-center justify-start w-full gap-2;
+  }
+  .icon {
+    @apply p-1 rounded-full bg-slate-300 fill-slate-500;
+  }
+}
